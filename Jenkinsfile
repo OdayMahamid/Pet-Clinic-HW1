@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'slave'}
+    agent {label 'slave'}//to run on jenkins slave
     tools{
         maven 'MAVEN'
     }
