@@ -12,7 +12,7 @@ pipeline {
        stage('build'){
            steps{
           
-                 sh "./mvnw package"//build the app
+                  "./mvnw package"//build the app
            }
        }
 }
